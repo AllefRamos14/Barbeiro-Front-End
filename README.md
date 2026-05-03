@@ -1,4 +1,4 @@
-# 💈 Barbeiro App
+# 💈 Barbeiro The Blade & Comb
 
 Aplicação web moderna para agendamento e gestão de serviços de barbearia.  
 Desenvolvida com foco em performance, experiência do usuário e boas práticas de desenvolvimento front-end.
