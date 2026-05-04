@@ -98,7 +98,7 @@ Antes de começar, certifique-se de ter instalado:
 ### 🔹 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/the-blade-and-comb.git
+git clone https://github.com/AllefRamos14/Barbeiro-Front-End.git
 cd the-blade-and-comb
 ```
 
