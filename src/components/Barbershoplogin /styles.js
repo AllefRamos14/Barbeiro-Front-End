@@ -16,13 +16,21 @@ const scanline = keyframes`
 `;
 
 export const Wrapper = styled.div`
-  min-height: 100vh;
+
+
+   min-height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: clamp(20px, 5vw, 48px);
   background: #080808;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 480px) {
+    align-items: flex-start;
+    padding-top: 60px;
+  }
  
   &::before {
     content: '';
@@ -66,13 +74,19 @@ export const ScanLine = styled.div`
 `;
 
 export const Card = styled.div`
+
+
   position: relative;
-  width: 440px;
+  width: min(100%, 440px);
   background: #111010;
   border: 1px solid rgba(224, 183, 103, 0.25);
-  padding: 52px 48px 44px;
+  padding: clamp(32px, 6vw, 52px) clamp(22px, 5vw, 48px) clamp(30px, 5vw, 44px);
   animation: ${fadeIn} 0.7s ease both;
   z-index: 20;
+
+  @media (max-width: 480px) {
+    border-radius: 14px;
+  }
  
   &::before {
     content: '';
@@ -132,13 +146,16 @@ export const ScissorIcon = styled.div`
 `;
 
 export const BrandName = styled.h1`
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+
+
+   font-family: 'Playfair Display', serif;
+  font-size: clamp(22px, 6vw, 28px);
   font-weight: 900;
-  letter-spacing: 0.12em;
+  letter-spacing: clamp(0.06em, 1.5vw, 0.12em);
   color: #e0b767;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.1;
+
   background: linear-gradient(
     90deg,
     #c9922a 0%,
@@ -155,11 +172,13 @@ export const BrandName = styled.h1`
 `;
 
 export const Tagline = styled.p`
-  font-size: 10px;
-  letter-spacing: 0.35em;
+
+
+  font-size: clamp(8px, 2.4vw, 10px);
+  letter-spacing: clamp(0.16em, 3vw, 0.35em);
   color: rgba(224,183,103,0.5);
   text-transform: uppercase;
-  margin-top: 6px;
+  margin-top: 8px;
   font-weight: 500;
 `;
 
@@ -218,18 +237,19 @@ export const InputWrapper = styled.div`
 `;
 
 export const Input = styled.input`
+
+
   width: 100%;
+  min-height: 48px;
   background: rgba(224, 183, 103, 0.04);
-  border: 1px solid ${({ focused }) =>
-    focused ? "rgba(224,183,103,0.55)" : "rgba(224,183,103,0.15)"};
+  border: 1px solid ${({ $focused }) =>
+    $focused ? "rgba(224,183,103,0.55)" : "rgba(224,183,103,0.15)"};
   color: #f0e6cc;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
-  font-weight: 400;
   padding: 13px 14px 13px 42px;
   outline: none;
   transition: border-color 0.25s, background 0.25s;
-  letter-spacing: 0.02em;
  
   &::placeholder {
     color: rgba(224,183,103,0.2);
