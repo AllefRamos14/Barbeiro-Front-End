@@ -127,7 +127,7 @@ VITE_WHATSAPP_NUMBER=5511999999999
 yarn dev
 ```
 
-Acesse: [http://localhost:5173](http://localhost:5173)
+Acesse: [http://localhost:5173](http://localhost:5173
 
 ---
 
