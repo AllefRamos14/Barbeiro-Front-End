@@ -117,8 +117,8 @@ cp .env.example .env
 Preencha o arquivo `.env` com as suas configurações:
 
 ```env
-VITE_API_URL=https://sua-api.com
-VITE_WHATSAPP_NUMBER=5511999999999
+VITE_API_URL=https://barbeiro-back-end.onrender.com
+VITE_WHATSAPP_NUMBER=551199999999
 ```
 
 ### 🔹 4. Iniciar em desenvolvimento
