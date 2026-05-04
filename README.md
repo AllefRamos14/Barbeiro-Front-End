@@ -171,15 +171,9 @@ Contribuições são bem-vindas! Siga os passos abaixo:
 
 ---
 
-## 📄 Licença
-
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
----
-
 <div align="center">
 
-Feito com ❤️ e ☕ por **[Seu Nome](https://github.com/SEU-USUARIO)**
+Feito com ❤️ e ☕ por **[Alef Ramos](https://github.com/AllefRamos14)**
 
 ⭐ Se esse projeto te ajudou, considere deixar uma estrela no repositório!
 
