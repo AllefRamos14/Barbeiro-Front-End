@@ -127,7 +127,7 @@ VITE_WHATSAPP_NUMBER=5511999999999
 yarn dev
 ```
 
-Acesse: [https://barbearia-washington.vercel.app/]
+Acesse: https://barbearia-washington.vercel.app/
 
 ---
 
