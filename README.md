@@ -31,13 +31,7 @@ Aplicação web moderna para gestão e agendamento de serviços de barbearia.
 ## Home
 
 <p align="center">
-  <img src="./public/preview-home.png" width="900" />
-</p>
-
-## Painel administrativo
-
-<p align="center">
-  <img src="./public/preview-admin.png" width="900" />
+  <img src="./assets/tela-home.webp" width="900" />
 </p>
 
 ---
@@ -249,45 +243,6 @@ Durante o desenvolvimento deste projeto, aprofundei conhecimentos em:
 
 ---
 
-# 🔮 Melhorias futuras
-
-- 🔐 Sistema de autenticação
-- 📅 Calendário avançado de agendamentos
-- 💳 Integração com pagamentos online
-- 📊 Dashboard analítico
-- 📨 Notificações automáticas
-- 🌙 Dark mode
-- 📱 PWA
-
----
-
-# 🤝 Contribuindo
-
-Contribuições são bem-vindas!
-
-1. Faça um fork do projeto
-2. Crie uma branch:
-
-```bash
-git checkout -b feature/minha-feature
-```
-
-3. Commit suas alterações:
-
-```bash
-git commit -m "feat: minha feature"
-```
-
-4. Faça push:
-
-```bash
-git push origin feature/minha-feature
-```
-
-5. Abra um Pull Request 🚀
-
----
-
 # 📄 Licença
 
 Este projeto está sob a licença MIT.
@@ -296,7 +251,7 @@ Este projeto está sob a licença MIT.
 
 <div align="center">
 
-## 👨‍💻 Desenvolvido por :contentReference[oaicite:0]{index=0}
+## 👨‍💻 Desenvolvido por : Alef Ramos 
 
 ### Desenvolvedor Full Stack focado em aplicações modernas web
 
