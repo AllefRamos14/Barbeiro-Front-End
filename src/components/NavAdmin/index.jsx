@@ -36,7 +36,7 @@ function Navbar() {
 
       <Menu>
         <NavLink href="/">Home</NavLink>
-        <NavLink href="/admin">Admim</NavLink>
+        <NavLink href="/admin">Painel</NavLink>
       </Menu>
 
       <PrimaryButton

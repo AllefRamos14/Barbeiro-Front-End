@@ -11,7 +11,7 @@ function Navbar() {
         <NavLink href="#home">Home</NavLink>
         <NavLink href="#servicos">Serviços</NavLink>
         <NavLink href="#galeria">Galeria</NavLink>
-        <NavLink href="/admin">Admim</NavLink>
+        <NavLink href="/admin">Painel</NavLink>
         <NavLink href="#sobre">Sobre</NavLink>
       </Menu>
 
