@@ -2,179 +2,309 @@
 
 <img src="https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen?style=for-the-badge" />
 <img src="https://img.shields.io/badge/react-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
-<img src="https://img.shields.io/badge/vite-⚡-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
+<img src="https://img.shields.io/badge/license-MIT-black?style=for-the-badge" />
 
 <br />
 <br />
 
-```
-  ✂️  THE BLADE & COMB
-      Agendamento inteligente para barbearias modernas
-```
+# ✂️ THE BLADE & COMB
+
+### Agendamento inteligente para barbearias modernas
+
+Aplicação web moderna para gestão e agendamento de serviços de barbearia.
 
 </div>
 
 ---
 
-## 📌 Sobre o projeto
+# 🌐 Demonstração
 
-**The Blade & Comb** é uma aplicação web moderna para **agendamento e gestão de serviços de barbearia**, desenvolvida com foco em performance, experiência do usuário e boas práticas de desenvolvimento front-end.
-
-O sistema permite que clientes agendem serviços de forma simples e rápida, enquanto administradores gerenciam tudo por meio de um painel dedicado — com integração direta ao WhatsApp para confirmações e comunicação.
+- 🔗 Front-end: https://barbearia-washington.vercel.app/
+- ⚙️ API: https://barbeiro-back-end.onrender.com/api/health
 
 ---
 
-## ✨ Funcionalidades
+# 📸 Preview
+
+## Home
+
+<p align="center">
+  <img src="./public/preview-home.png" width="900" />
+</p>
+
+## Painel administrativo
+
+<p align="center">
+  <img src="./public/preview-admin.png" width="900" />
+</p>
+
+---
+
+# 📌 Sobre o projeto
+
+O **The Blade & Comb** é uma aplicação web desenvolvida para modernizar o processo de agendamento e gerenciamento de serviços em barbearias.
+
+O sistema oferece uma experiência intuitiva para clientes realizarem agendamentos online e um painel administrativo completo para gerenciamento de serviços, horários e atendimento.
+
+O projeto foi desenvolvido com foco em:
+
+- ⚡ Performance
+- 🎨 Experiência do usuário
+- 📱 Responsividade
+- 🧩 Componentização
+- 🧼 Código limpo
+- 🚀 Escalabilidade front-end
+
+---
+
+# ✨ Funcionalidades
 
 | Recurso | Descrição |
 |---|---|
-| 📅 Agendamento online | Clientes escolhem serviço, horário e barbeiro |
-| ✂️ Catálogo de serviços | Listagem com preços e descrições |
-| 🧾 Painel administrativo | Edição de serviços, horários e agendamentos |
-| 💬 Integração WhatsApp | Confirmações e lembretes automáticos via WhatsApp |
-| 🔔 Notificações toast | Feedbacks visuais em tempo real para o usuário |
-| 📱 Layout responsivo | Interface adaptada para mobile, tablet e desktop |
-| 🎨 Design moderno | UI refinada construída com Styled Components |
+| 📅 Agendamento online | Clientes escolhem serviços e horários |
+| ✂️ Catálogo de serviços | Listagem dinâmica de serviços e preços |
+| 🧾 Painel administrativo | Gerenciamento completo da aplicação |
+| 💬 Integração WhatsApp | Comunicação rápida com clientes |
+| 🔔 Notificações toast | Feedback visual em tempo real |
+| 📱 Layout responsivo | Compatível com mobile, tablet e desktop |
+| 🎨 UI moderna | Interface premium com Styled Components |
+| ⚡ Atualização dinâmica | Alterações refletidas instantaneamente |
+| 💾 Persistência local | Dados mantidos com localStorage |
 
 ---
 
-## 🛠️ Stack tecnológica
+# 🧠 Arquitetura da aplicação
 
-### Front-end
+- Componentização reutilizável
+- Organização modular por domínio
+- Context API para gerenciamento de estado
+- Persistência local com localStorage
+- Integração REST API via Axios
+- Responsividade mobile-first
+- Estrutura escalável para crescimento do projeto
 
-| Tecnologia | Versão | Função |
-|---|---|---|
-| ⚛️ React | 19 | Biblioteca principal de UI |
-| ⚡ Vite | — | Build tool e dev server |
-| 🎨 Styled Components | — | Estilização com CSS-in-JS |
-| 🔀 React Router DOM | — | Roteamento client-side |
-| 🔔 React Toastify | — | Notificações toast |
-| 🌐 Axios | — | Requisições HTTP |
-| 🎯 Lucide Icons | — | Ícones SVG modernos |
-| 🎯 React Icons | — | Biblioteca de ícones complementar |
+---
 
-### Qualidade de código
+# 🛠️ Stack tecnológica
+
+## Front-end
+
+| Tecnologia | Função |
+|---|---|
+| ⚛️ React 19 | Biblioteca principal |
+| ⚡ Vite | Build tool e dev server |
+| 🎨 Styled Components | Estilização CSS-in-JS |
+| 🔀 React Router DOM | Gerenciamento de rotas |
+| 🌐 Axios | Requisições HTTP |
+| 🔔 React Toastify | Sistema de notificações |
+| 🎯 React Icons | Biblioteca de ícones |
+| 🎯 Lucide React | Ícones SVG modernos |
+
+---
+
+## Qualidade de código
 
 | Ferramenta | Função |
 |---|---|
-| 🧹 Biome | Lint + formatação de código |
+| 🧹 Biome | Lint e formatação |
+| 📦 Yarn | Gerenciador de pacotes |
 
 ---
 
-## 📁 Estrutura do projeto
+# 📁 Estrutura do projeto
 
-```
-the-blade-and-comb/
-├── public/                 # Arquivos estáticos
+```bash
+Barbeiro-Front-End/
+├── public/
 ├── src/
-│   ├── assets/             # Imagens, fontes e ícones
-│   ├── components/         # Componentes reutilizáveis
-│   ├── pages/              # Páginas da aplicação
-│   ├── routes/             # Configuração de rotas
-│   ├── services/           # Chamadas à API (Axios)
-│   ├── styles/             # Temas e estilos globais
-│   └── main.jsx            # Entry point
-├── .gitignore
-├── biome.json              # Configuração do Biome
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── styles/
+│   └── main.jsx
+├── biome.json
 ├── package.json
 ├── vite.config.js
 └── README.md
 ```
 
-> ⚠️ A estrutura acima é uma sugestão baseada nas tecnologias utilizadas. Ajuste conforme a organização real do seu projeto.
+---
+
+# ⚙️ Como executar o projeto
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter instalado:
+
+- Node.js 18+
+- Yarn ou npm
 
 ---
 
-## ⚙️ Como rodar o projeto
-
-### Pré-requisitos
-
-Antes de começar, certifique-se de ter instalado:
-
-- [Node.js](https://nodejs.org/) (versão 18 ou superior)
-- [Yarn](https://yarnpkg.com/) ou npm
-
-### 🔹 1. Clonar o repositório
+## 🔹 1. Clonar repositório
 
 ```bash
 git clone https://github.com/AllefRamos14/Barbeiro-Front-End.git
-cd the-blade-and-comb
 ```
 
-### 🔹 2. Instalar dependências
+---
+
+## 🔹 2. Entrar na pasta
+
+```bash
+cd Barbeiro-Front-End
+```
+
+---
+
+## 🔹 3. Instalar dependências
 
 ```bash
 yarn install
 ```
 
-### 🔹 3. Configurar variáveis de ambiente
+---
 
-```bash
-cp .env.example .env
-```
+## 🔹 4. Configurar variáveis de ambiente
 
-Preencha o arquivo `.env` com as suas configurações:
+Crie um arquivo `.env` na raiz do projeto:
 
 ```env
 VITE_API_URL=https://barbeiro-back-end.onrender.com
 VITE_WHATSAPP_NUMBER=551199999999
 ```
 
-### 🔹 4. Iniciar em desenvolvimento
+---
+
+## 🔹 5. Rodar aplicação
 
 ```bash
 yarn dev
 ```
 
-Acesse: https://barbearia-washington.vercel.app/
-
----
-
-## 📦 Scripts disponíveis
+Acesse:
 
 ```bash
-yarn dev        # Inicia o servidor de desenvolvimento
-yarn build      # Gera o build de produção
-yarn preview    # Visualiza o build localmente
-yarn lint       # Verifica problemas de código com o Biome
-yarn format     # Formata o código com o Biome
-yarn check      # Analisa e reporta problemas
-yarn fix        # Corrige problemas automaticamente
+http://localhost:5173
 ```
 
 ---
 
-## 🚀 Deploy
+# 📦 Scripts disponíveis
 
-Para gerar a build de produção:
+```bash
+yarn dev        # Ambiente de desenvolvimento
+yarn build      # Build de produção
+yarn preview    # Visualizar build local
+yarn lint       # Verificar problemas de código
+yarn format     # Formatar código
+yarn check      # Validar projeto
+yarn fix        # Corrigir problemas automaticamente
+```
+
+---
+
+# 🚀 Deploy
+
+A aplicação pode ser publicada facilmente em plataformas modernas como:
+
+- ▲ Vercel
+- Netlify
+- Render
+- GitHub Pages
+
+Para gerar a build:
 
 ```bash
 yarn build
 ```
 
-Os arquivos otimizados serão gerados na pasta `/dist`, prontos para deploy em qualquer serviço de hospedagem estática como **Vercel**, **Netlify** ou **GitHub Pages**.
+Os arquivos otimizados serão gerados na pasta:
+
+```bash
+/dist
+```
 
 ---
 
-## 🤝 Contribuindo
+# 📚 Aprendizados
 
-Contribuições são bem-vindas! Siga os passos abaixo:
+Durante o desenvolvimento deste projeto, aprofundei conhecimentos em:
 
-1. Faça um **fork** do projeto
-2. Crie uma branch para sua feature: `git checkout -b feature/minha-feature`
-3. Faça o commit das suas alterações: `git commit -m 'feat: minha nova feature'`
-4. Faça o push para a branch: `git push origin feature/minha-feature`
-5. Abra um **Pull Request**
+- Arquitetura React
+- Componentização escalável
+- Styled Components
+- Context API
+- Integração com APIs REST
+- UX/UI responsiva
+- Deploy com Vercel e Render
+- Organização de código front-end
+- Boas práticas de desenvolvimento
 
-> Este projeto segue o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/).
+---
+
+# 🔮 Melhorias futuras
+
+- 🔐 Sistema de autenticação
+- 📅 Calendário avançado de agendamentos
+- 💳 Integração com pagamentos online
+- 📊 Dashboard analítico
+- 📨 Notificações automáticas
+- 🌙 Dark mode
+- 📱 PWA
+
+---
+
+# 🤝 Contribuindo
+
+Contribuições são bem-vindas!
+
+1. Faça um fork do projeto
+2. Crie uma branch:
+
+```bash
+git checkout -b feature/minha-feature
+```
+
+3. Commit suas alterações:
+
+```bash
+git commit -m "feat: minha feature"
+```
+
+4. Faça push:
+
+```bash
+git push origin feature/minha-feature
+```
+
+5. Abra um Pull Request 🚀
+
+---
+
+# 📄 Licença
+
+Este projeto está sob a licença MIT.
 
 ---
 
 <div align="center">
 
-Feito com ❤️ e ☕ por **[Alef Ramos](https://github.com/AllefRamos14)**
+## 👨‍💻 Desenvolvido por :contentReference[oaicite:0]{index=0}
 
-⭐ Se esse projeto te ajudou, considere deixar uma estrela no repositório!
+### Desenvolvedor Full Stack focado em aplicações modernas web
+
+[GitHub](https://github.com/AllefRamos14) •
+[LinkedIn](https://www.linkedin.com/in/allef-ramos)
+
+<br />
+
+⭐ Se este projeto te ajudou, considere deixar uma estrela no repositório.
 
 </div>
