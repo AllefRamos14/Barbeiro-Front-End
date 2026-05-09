@@ -31,7 +31,7 @@ Aplicação web moderna para gestão e agendamento de serviços de barbearia.
 ## Home
 
 <p align="center">
-  <img src="./assets/tela-home.webp" width="900" />
+  <img src="./preview/tela-home.webp" width="900" />
 </p>
 
 ---
